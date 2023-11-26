@@ -33,3 +33,8 @@ Estas clases contendrás atributos y métodos dependiendo de la clase en la cual
 **Interes:**
 
 El interes de este proyecto es que los usuarios que usan las bicicletas puedan encontrar los productos de forma rapida y eficiente utilizando solo las caracteristicas del producto que busca encontrandola muy rapidos,asi como agregar productos nuevos a dicho inventario.
+
+
+**Consideraciones:**
+
+Tener abiertas las clases para poder correr el codigo
