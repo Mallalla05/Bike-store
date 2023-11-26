@@ -1,6 +1,8 @@
 # Bike-store
 
 **Prerequisitos:**
+
+
 Haber instalado un compilador de c++
 
 compilar con: "g++ main.cpp -o xd" correr en windows: "./xd.exe"
