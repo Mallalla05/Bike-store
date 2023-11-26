@@ -1,5 +1,9 @@
 # Bike-store
 
+**Prerequisitos:**
+Haber instalado un compilador de c++
+
+compilar con: "g++ main.cpp -o xd" correr en windows: "./xd.exe"
 **Contexto del proyecto:**
 
 En este mundo actualel uso de  la bicicleta se ha incrementado enormemente,tan solo en octubre del 2020 se manufacturaron 111,700 bicicletas ,es por eso que debido a la alta demanda de estas el proyecto se realizara la creación de una aplicacion de escritorio sobre un inventario de bicicletas, es decir, en este se aplicaran la creacion de un codigo con los  conocimientos vistos en clase en el cual podremos realizar un inventario de los productos que se tienen,cuando el cliente coloque  las caracteristicas del producto este le dara el que busca,asi como poder registrar algunos otros mediante sus caracteristicas.Cabe recalcar que el agregar productos solo se podra reaizar si se contestan las preguntas realizadas para su registro correctamente y asi poder navegar mas sobre el gran mundo de las bicicletas y sus accesorios.
