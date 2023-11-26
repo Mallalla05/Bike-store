@@ -1,4 +1,4 @@
-# Bike-store
+# Bike-inventory 
 
 
 **Prerequisitos:**
