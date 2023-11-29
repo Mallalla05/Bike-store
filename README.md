@@ -4,22 +4,30 @@
 **Requisitos para utilizarlo:**
 
 
-Tener instalado desde antes un compilador de c++
-
-y correrlo/compilar con "g++ main.cpp y windows: "./xd.exe"
+Tener instalado desde antes un compilador de c++ y correrlo/compilar con "g++ main.cpp y windows: "./xd.exe"
 
 
 
 
 **Contexto del proyecto:**
 
-En este mundo actual el uso de  la bicicleta se ha incrementado enormemente,tan solo en octubre del 2020 se manufacturaron 111,700 bicicletas ,es por eso que debido a la alta demanda de estas el proyecto se realizara la creación de una aplicacion de escritorio de tickets el cual imprimira una vez ingresando correctamente tu usuario y contraseña con lujo del detalle los tickets cargados ya previamente en el sistema ,muestra en la pantalla el nombre del cliente,productos,costos y detalles de cada uno de los articulos.El formato y algunas opciones que brinda el programa son: 
+En este mundo actual el uso de  la bicicleta se ha incrementado enormemente,tan solo en octubre del 2020 se manufacturaron 111,700 bicicletas ,es por eso que debido a la alta demanda de estas el proyecto se realizara la creación de una aplicacion de escritorio de tickets el cual imprimira una vez ingresando correctamente tu usuario y contraseña con lujo del detalle los tickets cargados ya previamente en el sistema ,muestra en la pantalla el nombre del cliente,productos,costos y detalles de cada uno de los articulos.El formato y algunas opciones que brinda el programa son:
+
+
 
  0.-Registrar Cliente
+ 
  1.-Imprime el ticket del primer cliente
+ 
  2.-Imprime el ticket del segundo cliente
+ 
  3.-Imprime el ticket del tercer cliente
+ 
 Para salir presiona cualquier numero mayor a 3 
+
+
+
+
 
 
 **Instrucciones registro:**
