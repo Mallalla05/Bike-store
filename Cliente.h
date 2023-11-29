@@ -13,23 +13,23 @@ class Cliente
         string apellido;
         string equipo;
         string email;
-        string contraseña;
+        string contrasena;
     public: 
-    Cliente() : nombre(""), apellido(""), equipo(""), email(""), contraseña("") {}
-    Cliente (string nombre_, string apellido_, string equipo_,string email_,string contraseña_) {
+    Cliente() : nombre(""), apellido(""), equipo(""), email(""), contrasena("") {}
+    Cliente (string nombre_, string apellido_, string equipo_,string email_,string contrasena_) {
         nombre = nombre_;
         apellido = apellido_;
         equipo = equipo_;
         email=email_;
-        contraseña=contraseña_;
+        contrasena=contrasena_;
     }
     //Seccion en donde colocaremos todos los getters correspondientes 
     string getNombre();
-    string getApellidoPaterno();
+    string getApellido();
     string getEquipo();
     //Seccion en donde colocaremos todos los setters correspondientes 
     void setNombre(string);
-    void setApellidoPaterno(string);
+    void setApellido(string);
     void setEquipo(string);
     void imprimirInfo();
     bool access(string,string);
@@ -38,7 +38,7 @@ class Cliente
 string Cliente::getNombre(){
     return nombre;
 }
-string Cliente::getApellidoPaterno(){
+string Cliente::getApellido(){
     return apellido;
 }
 string Cliente::getEquipo(){
@@ -48,7 +48,7 @@ string Cliente::getEquipo(){
 void Cliente::setNombre(string nombre_){
     nombre = nombre_;
 }
-void Cliente::setApellidoPaterno(string apellido_){
+void Cliente::setApellido(string apellido_){
     apellido = apellido_;
 }
 void Cliente::setEquipo(string equipo_){
@@ -61,8 +61,8 @@ void Cliente::imprimirInfo(){
     cout<<"\t\tEquipo: "<<equipo<<endl;
 }
 
-bool Cliente:: access (string email_,string contraseña_){
-    if (email_==email && contraseña_==contraseña)
+bool Cliente:: access (string email_,string contrasena_){
+    if (email_==email && contrasena_==contrasena)
     return true;
 return false;
 
