@@ -13,8 +13,8 @@ using namespace std;
 vector <Cliente> clientes;
 Cliente currentCliente;
 
-void addUser(string nombre, string apellidoPaterno, string equipo,string email,string contrasena){
-    Cliente c(nombre, apellidoPaterno, equipo, email, contrasena);
+void addUser(string nombre, string apellido, string equipo,string email,string contrasena){
+    Cliente c(nombre, apellido, equipo, email, contrasena);
     clientes.push_back(c);
 }
 
@@ -30,19 +30,19 @@ bool authUser(string email, string contrasena) {
 }
 
 void registerUser() {
-    string nombre, apellidoPaterno, equipo, email, contrasena;
+    string nombre, apellido, equipo, email, contrasena;
     cout << "\nProporciona el nombre: ";
     cin.ignore();
     getline(cin, nombre);
-    cout << "\nProporciona el apellido paterno: ";
-    getline(cin, apellidoPaterno);
+    cout << "\nProporciona el apellido : ";
+    getline(cin, apellido);
     cout << "\nProporciona el equipo: ";
     getline(cin, equipo);
     cout << "\nProporciona el email: ";
     getline(cin, email);
     cout << "\nProporciona la contraseña: ";
     getline(cin, contrasena);
-    addUser(nombre, apellidoPaterno, equipo, email, contrasena);
+    addUser(nombre, apellido, equipo, email, contrasena);
 }
 
 void menu(){ //Las opciones que tenemos para escoger en dicho programa
@@ -94,7 +94,7 @@ int main() {
                 ticket1.agregarProducto (bicicleta6);
                 ticket1.agregarProducto (casco24);
                 ticket1.agregarProducto (casco67);
-                //Con estos obajetos saco el precio final de cada producto
+                //Con estos se saca precio final de cada producto
                 bicicleta6.precioFinal();
                 casco24.precioFinal();
                 casco67.precioFinal();
@@ -115,8 +115,8 @@ int main() {
             Bicicleta bicicleta1 ("Trek Marlin",12599,3,"MTB",27.5,"Rojo brillante");
             Bicicleta bicicleta2 ("Specialized Roubbaix Base",19999,7,"Ruta",29,"Negro satinado");
             Bicicleta bicicleta3 ("TCannodale Caad Optimo 105",17499,3,"Gravel",29,"Rojo con negro");
-            //Se crea un objeto,en este caso es el cliente
-            //Cliente cliente2 ("Morales", "Mariana", "ChapusBike");
+            
+           
             
             Ticket ticket2 ("785241");
             
@@ -144,9 +144,6 @@ int main() {
         }
         else if(opcion==3){
             
-            //Utilizo esta clase hija para los productos que sean unicamente de
-            //comida y poder decirte las calorias y cantidad de azucar de dichos
-            //productos
             Casco casco1 ("Casco Stealth",2099, 3, "Policarbonato","Negro mate");
             Casco casco2 ("Casco Titanium Ultra", 3074, 6, "Titanio y polimero de alta resistencia","Plateado metalico");
             Casco casco3 ("Casco Carbon Edge", 4199, 15, "Fibra de carbono premium ", "Negro brillante");
