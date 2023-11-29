@@ -49,9 +49,9 @@ void menu(){ //Las opciones que tenemos para escoger en dicho programa
 	
 		cout<<"\n\n\n\t\t Bienvenido al portal de compras BIKE-STORE\n"<<endl;
         cout<<"\t\t 0 - Registrar cliente "<<endl;
-		cout<<"\t\t 1 - Crea el ticket del primer cliente "<<endl;
-		cout<<"\t\t 2 - Crea el ticket del segundo cliente "<<endl;
-		cout<<"\t\t 3 - Crea el ticket del tercer cliente"<<endl;
+		cout<<"\t\t 1 - Imprime el ticket del primer cliente "<<endl;
+		cout<<"\t\t 2 - Imprime el ticket del segundo cliente "<<endl;
+		cout<<"\t\t 3 - Imprime el ticket del tercer cliente"<<endl;
 		cout<<"\t\t Para salir presiona cualquier numero mayor a 3"<<endl;
 	
 }
